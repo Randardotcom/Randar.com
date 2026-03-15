@@ -13,7 +13,6 @@ import About from "./components/About";
 import Team from "./components/Team";
 import Contact from "./components/Contact";
 import FAQ from "./components/faq";
-import { useEffect } from "react";
 import Lenis from "lenis";
 
 // --- NEW: The Scroll Handler ---
