@@ -67,10 +67,10 @@ const ScrambleText = ({ text }) => {
 
 const Footer = () => {
   const links = [
-    { name: "Home", path: "#home" },
-    { name: "Services", path: "#services" },
+    { name: "Home", path: "#Home" },
+    { name: "Services", path: "#Services" },
     { name: "Our Team", path: "/Team" },
-    { name: "Work", path: "#work" },
+    { name: "Work", path: "#Work" },
     { name: "Contact", path: "/Contact" },
   ];
   const scrollToTop = () => {
