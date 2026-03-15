@@ -69,9 +69,9 @@ const Footer = () => {
   const links = [
     { name: "Home", path: "#home" },
     { name: "Services", path: "#services" },
-    { name: "Our Team", path: "/team" },
+    { name: "Our Team", path: "/Team" },
     { name: "Work", path: "#work" },
-    { name: "Contact", path: "/contact" },
+    { name: "Contact", path: "/Contact" },
   ];
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
