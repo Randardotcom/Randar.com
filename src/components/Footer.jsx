@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 
 // Upgraded component: Auto-scrambles on view + keeps hover effect
 const ScrambleText = ({ text }) => {
@@ -67,8 +68,8 @@ const ScrambleText = ({ text }) => {
 
 const Footer = () => {
   const links = [
-    { name: "Home", path: "#Home" },
-    { name: "Services", path: "#Services" },
+    { name: "Home", path: "/#Home" },
+    { name: "Services", path: "/#Services" },
     { name: "Our Team", path: "/Team" },
     { name: "Work", path: "#Work" },
     { name: "Contact", path: "/Contact" },
@@ -104,13 +105,13 @@ const Footer = () => {
             <div className="flex flex-col gap-3">
               <h4 className="font-bold text-slate-900 mb-1">Navigation</h4>
               {links.map((link) => (
-                <a
+                <Link
                   key={link.name}
-                  href={link.path}
+                  to={link.path}
                   className="text-slate-600 text-sm w-max"
                 >
-                  <ScrambleText text={link.name} />
-                </a>
+                  {link.name}
+                </Link>
               ))}
             </div>
 
