@@ -12,25 +12,25 @@ const Team = () => {
     {
       name: "Ayush Dhamal",
       role: "Lead Developer",
-      image: "public/Team-Photos/Ayush.jpeg",
+      image: "/Team-Photos/Ayush.jpeg",
       bio: "Architecting scalable web solutions and ensuring every line of code performs flawlessly.",
     },
     {
       name: "Pankaj Vaishnav",
       role: "Lead Developer",
-      image: "public/Team-Photos/Pankaj.jpeg",
+      image: "/Team-Photos/Pankaj.jpeg",
       bio: "Shaping visual identities and crafting user interfaces that leave lasting impressions.",
     },
     {
       name: "Tanish Dete",
       role: "Lead Developer",
-      image: "public/Team-Photos/Tanish.jpeg",
+      image: "/Team-Photos/Tanish.jpeg",
       bio: "Aligning business objectives with digital execution to maximize market reach.",
     },
     {
       name: "Atharva Mishra",
       role: "Lead Developer",
-      image: "public/Team-Photos/Atharva.jpeg",
+      image: "/Team-Photos/Atharva.jpeg",
       bio: "Streamlining project workflows and ensuring flawless delivery across all client touchpoints.",
     },
   ];
