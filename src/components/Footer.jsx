@@ -96,7 +96,7 @@ const Footer = () => {
               href="mailto:hello@randar.com"
               className="text-lg md:text-xl font-semibold text-slate-600 hover:text-slate-900 transition-colors border-b-2 border-slate-300 hover:border-blue-600 pb-1 inline-block"
             >
-              hello@randar.com
+              randar1agency@gmail.com
             </a>
           </div>
 
