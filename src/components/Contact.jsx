@@ -44,7 +44,7 @@ const Contact = () => {
             <p className="font-semibold text-slate-800">
               Email: 
               <a href="mailto:hello@randar.com" className="text-[#2563eb] hover:underline">
-                hello@randar.com
+                randar1agency@gmail.com
               </a>
             </p>
             <p className="font-semibold text-slate-800">Location: Pune, India</p>
